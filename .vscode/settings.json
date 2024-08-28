@@ -1,0 +1,10 @@
+{
+  "prettier.configPath": ".prettierrc.mjs",
+  "prettier.useEditorConfig": false,
+  "[javascript,json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  }
+}
