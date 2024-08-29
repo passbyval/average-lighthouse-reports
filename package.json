@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --no-warnings=ExperimentalWarning ./index.mjs",
-    "lint": "eslint"
+    "lint": "eslint",
+    "update:readme": "sh ./update_readme.sh"
   },
   "repository": {
     "type": "git",
