@@ -13,7 +13,6 @@ const { averageReports } = await import('./lib/averageReports.mjs')
 const { avg, paths } = await averageReports({
   reportPaths,
   isGlob,
-  ...rest,
 })
 
 if (rest.info) {
